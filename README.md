@@ -26,8 +26,6 @@
 `node --test tests.mjs` 执行核心检查。`node build.mjs` 生成静态网页 dist。服务不执行 shell 拼接命令，FFmpeg 使用参数数组。项目不包含用户素材和模型密钥。端口可通过 PORT 环境变量调整。
 
 
-## GitHub Pages 部署
-
-网页位于 docs/。在仓库 Settings → Pages 中选择 Deploy from a branch，main 分支与 /docs 目录。
-
-网页为静态预览，视频导入和 MP4 导出请下载工具包在本机运行。
+## GitHub Pages
+网页发布目录：docs/。在 Settings → Pages 选择 main 分支、/docs 目录。
+静态网站支持脚本解析和时间轴编辑；视频导入与 MP4 导出请下载工具包本地运行。
